@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+## step-1: deployement Link: [https://lab-functionup-org.netlify.app/]
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
