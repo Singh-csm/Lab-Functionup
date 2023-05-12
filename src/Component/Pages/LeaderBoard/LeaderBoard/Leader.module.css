@@ -1,0 +1,113 @@
+.leader_section {
+    width: 95%;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgb(207, 206, 206);
+    border-radius: 13px;
+}
+
+.heading {
+    margin-bottom: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.update>h4 {
+    padding-bottom: 10px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.update>p {
+    font-size: 12px;
+    color: grey;
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.calender>input {
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 7px;
+    border: 1px solid grey;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    color: grey;
+    padding-bottom: 15px;
+    border-bottom: 0.1px solid rgb(220, 220, 220);
+}
+
+td {
+    padding: 15px 0;
+    text-align: center;
+    border-bottom: 0.1px solid rgb(220, 220, 220);
+}
+
+.name {
+    font-size: 8px;
+    border: 1px solid #ff7a00;
+    color: #f36b00;
+    background-color: rgba(255, 197, 90, .4);
+    padding: 0.25rem 0.334rem;
+    border-radius: 4px;
+}
+
+tbody {
+    height: 30vh;
+    overflow-y: scroll;
+}
+
+
+
+/* ++++++++++ Responsive +++++++++++ */
+
+
+/* ============ Phone ============= */
+
+@media (max-width:500px) {
+
+    .leader_section {
+        width: 100%;
+    }
+    .heading{
+        display: block;
+    }
+    .date{
+        width: 100%;
+        padding-top: 15px;      
+        position: relative;
+    }
+    
+    .date span{
+        font-size: 12px;
+    }
+    
+    .calender input{
+        width: 70px;
+        position: absolute;
+        right: 0%;
+    }
+    .data table tbody  td{
+        font-size: 13px;
+    }
+}
+
+
+/* ============ tablet ============= */
+
+@media (max-width:900px) {
+
+    .leader_section {
+        width: 100%;
+    }   
+}

@@ -1,0 +1,58 @@
+.lecture_container{
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(207, 206, 206);
+    border-radius: 18px;
+    padding: 25px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lecture_container > div > button{
+    padding: 12px 46px;
+    color: #fff;
+    background-color: red;
+
+    outline: none;
+    border: none;
+    border-radius: 4px;
+
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+
+/* ++++++++++ Responsive +++++++++++ */
+
+
+/* ============ Phone ============= */
+
+@media (max-width:500px) {
+
+    .lecture_container{
+        box-sizing: border-box;
+        display: block;
+    }
+
+    .lecture_container > div > h3{
+        font-size: 14px;
+    }
+
+    .lecture_container > div > button{
+        padding: 8px 30px;
+        margin: 20px 0;
+
+    }
+    .photo {
+        box-sizing: border-box;
+        display: flex;
+        justify-content: right;
+    }
+
+    .photo img{
+        height: 90px;
+    }
+}
+

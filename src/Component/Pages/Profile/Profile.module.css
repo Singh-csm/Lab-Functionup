@@ -1,0 +1,255 @@
+.profile_container{
+    background-color: white;
+    border-radius: 18px;
+    display: flex;
+    width: 97%;
+    margin-top: 1.5em;
+    /* border: 1px solid red; */
+    padding: 2em 0;
+    margin-left: 0.5em;
+    margin-top: 2.5em;
+}
+.img_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    margin:2em;
+    margin-top: 0;
+    width :20%;
+}
+.img_div > div{
+    height: 9.5em;
+    width: 9.5em;
+    background:#EAECF0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+
+    
+}
+
+.img_div > P{
+
+    margin-top: 1em;
+    
+    color: #ff2231;
+}
+
+.right{
+    width: 60%;
+    
+    
+}
+.cohort{
+    box-sizing: border-box;
+    margin: 2em 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+.personal > input{
+    border: none;
+    outline: none;
+    margin-top: 4em;
+    height: 3em;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 10px 12px ;
+    width: 100%;
+    display: block;
+    margin: 2em 0;
+    outline: none;
+    border: 1px solid rgb(188, 187, 187);
+    border-radius: 6px;
+}
+.vertical > input{
+    height: 3em;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 10px 12px ;
+    width: 100%;
+    display: block;
+    margin: 2em 0;
+    outline: none;
+    border: 1px solid rgb(188, 187, 187);
+    border-radius: 6px;
+
+}
+.lastinput{
+    
+    display: flex;
+    
+    
+}
+.lastinput >div > input{
+    height: 3em;
+    margin:  1em 0 ;
+    
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 10px 12px ;
+    width: 85%;
+    /* display: block; */
+    margin: 15px 0;
+    outline: none;
+    border: 1px solid rgb(188, 187, 187);
+    border-radius: 6px;
+}
+.drop{
+    
+    height: 3em;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 10px 12px ;
+    width: 85%;
+    /* display: block; */
+    margin: 15px 0;
+    outline: none;
+    border:1px solid rgb(188, 187, 187);
+    border-radius: 6px;
+
+}
+.btn{
+    width: 27%;
+    margin-top: 1.5rem;
+    font-size: larger;
+    padding: 10px 26px;
+    margin-bottom: 1em;
+    color: #fff;
+    background-color: red;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+.sectionMain{
+    
+    background-color: white;
+    border-radius: 18px;
+    margin: auto;
+    width: 97%;
+    margin-top: 1.5em;
+    /* border: 1px solid red; */
+    padding: 2em 0;
+    margin-left: 0.5em;
+
+
+}
+.sectionMain > div{
+    width: 60%;
+    margin: auto;
+
+}
+.add_btn{
+    border: none;
+    color: #EAECF0;
+    padding: .4rem;
+    border-radius: 16px;
+    background-color: #ff2231;
+}
+.add{
+    background-color: #FFFF;
+    border: none;
+    color: #ff2231;
+}
+.link_div{
+    margin-top: 1.5rem;
+    padding: .5rem;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    outline: none;
+    border: 1px solid rgb(199, 225, 243);
+}
+.link_add{
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.link_bottom{
+    margin-bottom: 1.5rem;
+    margin-top: 3.7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    padding: .5rem;
+    width: 63%;
+    height: 2rem;
+    display: flex;
+    border: 1px solid rgb(199, 225, 243);;
+
+}
+.input > input{
+    
+    border: none;
+    outline: none;
+
+}
+.container{
+    margin-bottom: 2rem;
+}
+.lastP{
+    font-size: small;
+    color: #808080;
+}
+.small{
+    margin-top: .8rem;
+    font-size: small;
+
+}
+
+.upload{
+    margin-bottom: .8rem;
+    padding: .8rem;
+    width: 27%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    border: .5px dotted #1c1b1b;
+}
+.upload_btn >button{
+    color: #ff2231;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFF;
+    border: none;
+    outline: none;
+}
+
+.cam{
+    display: flex;
+    justify-content: space-between;
+}
+.gray_img_bg{
+    margin-top: .8rem;
+    background-color: #EAECF0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 7rem;
+    border: 1px solid rgb(211, 233, 249);
+    border-radius: 8px;
+}
+.cam > div{
+    margin-top: 1.5rem;
+
+}
+.education{
+    padding-bottom: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,41 @@
+.main_container{
+    width: 65%;
+    margin-top: 15px;
+    /* border: 1px solid red; */
+    padding: 1.5em 0;
+    
+}
+
+
+/* ++++++++++ Responsive +++++++++++ */
+
+
+/* ============ Phone ============= */
+
+@media (max-width:500px){
+    
+    .main_container{
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0 20px;
+        margin: 20px 0 ;
+        margin-right: 0;
+       
+    }
+}
+
+
+/* ============ tablet ============= */
+
+@media (max-width:900px){
+    
+    .main_container{
+        box-sizing: border-box;
+        min-height: 98vh;
+        width: 100%;
+        padding: 0 20px;  
+        margin: 20px  0;
+        margin-right: 0;
+    }
+
+}

@@ -1,0 +1,133 @@
+.refferal_container {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #dfe9f6;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgb(207, 206, 206);
+    border-radius: 13px;
+}
+
+.refferal_container h3 {
+    color: #001378;
+    margin-bottom: 6px;
+    font-size: 16px;
+}
+
+.refferal_container p {
+    color: gray;
+    font-size: 14px;
+}
+
+.refferal_container>div {
+    display: flex;
+    margin-top: 20px;
+}
+
+.refferal_container>div>span {
+    background-color: white;
+    padding: 0 20px;
+    border-radius: 23px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.refferal_container>div>span>input {
+    outline: none;
+    border: none;
+    width: 15em;
+    margin-left: 5px;
+}
+
+.refferal_container button {
+    padding-left: 7px;
+    padding-right: 15px;
+    color: #fff;
+    background-color: #21c17a;
+    outline: none;
+    border: none;
+    border-radius: 23px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.refferal_container button>img {
+    height: 35px;
+    width: 50px;
+    display: inline-block;
+}
+
+/* ++++++++++ Responsive +++++++++++ */
+
+
+/* ============ Phone ============= */
+
+@media (max-width:500px) {
+
+    .refferal_container {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 20px 0px;
+        padding: 20px;
+        border-radius: 13px;
+    }
+    .refferal_container h3{
+        font-size: 14px;
+    }
+
+    .refferal_container p{
+        font-size: 12px;
+    }
+    .refferal_container>div {
+        display: block;
+    }
+    .refferal_container>div>span{
+        width: 100%;
+        padding: 5px 10px;
+        box-sizing: border-box;
+    }
+    
+    .refferal_container>div>span>input {
+        outline: none;
+        border: none;
+        width: 70%;
+        height: 1.7em;
+        /* margin-left: 5px; */
+    }
+
+    .refferal_container button {
+        padding-left: 7px;
+        margin-top: 12px;
+        padding: 5px 0;
+        padding-right: 15px;
+    }
+    
+    .refferal_container button>img {
+        height: 20px;
+        width: 30px;
+        display: inline-block;
+    }
+    
+}
+
+/* ============ Tablet ============= */
+
+@media (max-width:900px) {
+
+    .refferal_container {
+        margin-top: 20px;
+    }
+    .refferal_container>div>span{
+        width: 100%;
+        padding: 5px 10px;
+        box-sizing: border-box;
+    }
+    .refferal_container button > span{
+        font-size: 12px;
+    }
+}

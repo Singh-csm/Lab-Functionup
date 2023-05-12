@@ -1,0 +1,46 @@
+.instruction_container {
+    width: 100%;
+    background-color: white;
+  
+    padding: 25px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    border-radius: 18px;
+    box-shadow: 0 0 10px rgb(207, 206, 206);
+}
+
+.instruction_container>div {
+    padding-bottom: 20px;
+    line-height: 1.6;
+}
+
+.instruction_container div p {
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.instruction_container div h3 {
+    margin: 15px 0;
+    font-size: 1.2em;
+}
+
+
+/* ============ Phone ============= */
+
+@media (max-width:500px) {
+
+    .instruction_container>div {
+        line-height: 1.1;
+    }
+    .instruction_container  div p{
+        margin-bottom: 7px;
+        font-size: 12px;
+        color: grey;
+        
+    }
+    .instruction_container  div h3{
+        margin-top: 0 ;
+        margin-bottom: 10px;
+    }
+}

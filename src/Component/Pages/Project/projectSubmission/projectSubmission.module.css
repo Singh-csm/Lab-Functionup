@@ -1,0 +1,46 @@
+.projectSubmission_container{
+    width: 100%;
+    background-color: white;
+    padding: 25px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    border-radius: 18px;
+    box-shadow: 0 0 10px rgb(207, 206, 206);
+}
+
+.projectSubmission_container p{
+    font-size: 13px;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.projectSubmission_container input{
+    width: 80%;
+    padding: 10px 16px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.projectSubmission_container > div{
+    margin: 15px 0;
+}
+
+.projectSubmission_container > div > button{
+    padding: 12px 26px;
+    color: #fff;
+    background-color: red;
+    font-weight: 600;
+
+    outline: none;
+    border: none;
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+.projectSubmission_container > div > span{
+    margin-left: 25px;
+    font-size: 12px;
+    color: red;
+    font-weight: 600;
+}

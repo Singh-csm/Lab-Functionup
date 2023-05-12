@@ -1,0 +1,25 @@
+/* .container{
+    width: 68%;
+    border: 1px solid red;
+    padding: 1.5em 0;
+}
+.main{
+    width: 68%;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 25px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgb(207, 206, 206);
+    border-radius: 13px;
+}
+.heading{
+    margin: 1rem 0;
+} */
+
+
+.main_container{
+    width: 65%;
+    padding: 1.5em 0;
+}

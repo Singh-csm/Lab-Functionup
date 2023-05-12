@@ -1,0 +1,76 @@
+.row{
+    padding: 1.2rem;
+    height: 1.2rem;
+    display: flex;
+    width: 100%;
+}
+td {
+    padding: 15px 0;
+    text-align: center;
+}
+.no{
+    width: 5%;
+    /* margin-right:1.5rem ; */
+}
+.Lecture{
+    font-weight: 550;
+    width: 42%;
+    margin-right:1.5rem ;
+}
+.deadline{
+    width: 42%;
+    margin-right:1.5rem ;
+    font-weight: 300;
+}
+.main{
+    border-bottom: 0.1px solid rgb(220, 220, 220);
+}
+.btn{
+    width: 25%;
+    margin-top: 1.5rem;
+    font-size: larger;
+    padding: 10px 22px;
+    margin-bottom: 1em;
+    color: #fff;
+    background-color: red;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+.in{
+    margin-top: .8rem;
+    margin-bottom: .8rem;
+    border-radius: 4px;
+    padding-top: .8rem;
+    padding-left: .8rem;
+    padding-bottom: 3.5rem;
+    width: 92%;
+    height: 2rem;
+    border: 1px solid rgb(20, 21, 21);;
+}
+.submit{
+    display: flex;
+    justify-content: space-between;
+}
+
+.toogle{
+    margin-left: 3.7rem;
+}
+.min{
+    font-weight: 300;
+    margin-top: .8rem;
+    font-size: small;
+    margin-right: 5rem;
+}
+p{
+    font-weight: 300;
+    margin-top: .8rem;
+    font-size: small; 
+    color: #808080;
+    text-align: right;
+}
+.doc{
+    font-weight: 650;
+}

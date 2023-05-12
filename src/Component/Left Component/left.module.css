@@ -1,0 +1,26 @@
+.left_container{
+    width: 29% ;
+    padding: 1.5em 0;
+    margin-left: 2em;
+    /* border: 1px solid red; */
+}
+
+
+/* ++++++++++++++++++ Responsive section +++++++++++++++++++++ */
+
+/* ============ Phone ============= */
+
+@media(max-width:500px){
+    .left_container{
+        display: none;
+    }
+}
+
+
+/* ============ Tablet ============= */
+
+@media(max-width:900px){
+    .left_container{
+        display: none;
+    }
+}

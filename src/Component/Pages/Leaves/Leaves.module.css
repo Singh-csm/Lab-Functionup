@@ -1,0 +1,39 @@
+.leaves_container{
+    width: 65%;
+    padding: 1.5rem 0;
+    margin-top: 15px;
+}
+
+
+
+
+/* ++++++++++ Responsive +++++++++++ */
+
+
+/* ============ Phone ============= */
+
+@media (max-width:500px){
+    
+    .leaves_container{
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0px 20px;
+        margin-top: 20px;
+    }
+}
+
+
+/* ============ tablet ============= */
+
+@media (max-width:900px){
+    
+    .leaves_container{
+        box-sizing: border-box;
+        min-height: 98vh;
+        width: 100%;
+        padding: 0px 20px;  
+        margin: 20px 0;
+    }
+
+}
+

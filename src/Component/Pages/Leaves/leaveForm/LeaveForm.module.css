@@ -1,0 +1,168 @@
+.leaveForm_container{
+    width: 100%;
+    background-color: white;
+    padding: 25px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    border-radius: 18px;
+    box-shadow: 0 0 10px rgb(207, 206, 206);
+}
+.leaveForm_container h2{
+    margin-top: 10px;
+}
+.leaveForm_container h3{
+    margin: 30px 0;
+}
+
+.date{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-bottom: 30px;
+}
+
+.date > div{
+    width: 48%;
+    /* border: 1px solid black; */
+}
+.date > div > p{
+    font-size: 14px;
+    margin-bottom: 10px ;
+}
+
+.date > div  span{
+    color: red;
+}
+
+.date > div > input{
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid rgb(163, 161, 161);
+}
+
+
+.subject {
+    width: 90%;
+    margin-bottom: 30px;
+}
+.subject p{
+    font-size: 14px;
+    margin-bottom: 10px ;
+}
+.subject span{
+    color: red;
+}
+.subject input{
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid rgb(163, 161, 161);
+}
+
+
+.reason {
+    width: 90%;
+    margin-bottom: 30px;
+}
+.reason p{
+    font-size: 14px;
+    margin-bottom: 10px ;
+}
+.reason span{
+    color: red;
+}
+.reason textarea{
+    min-width: 100%;
+    max-width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid rgb(163, 161, 161);
+}
+
+
+.filePart{
+    width: 90%;
+    margin-bottom: 30px;
+}
+.filePart p{
+    font-size: 14px;
+}
+
+.filePara{
+    margin-top: 15px;
+    color: red;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.filePara span{
+    margin-left: 10px;
+}
+
+
+.leaveForm_container > button{
+    padding: 16px 48px;
+    color: #fff;
+    background-color: red;
+    font-weight: 600;
+    font-size: 16px;
+
+    outline: none;
+    border: none;
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+
+
+
+/* ++++++++++ Responsive +++++++++++ */
+
+
+/* ============ Phone ============= */
+
+@media (max-width:500px){
+    
+    .leaveForm_container{
+        box-sizing: border-box;
+    }
+
+    .date{
+        box-sizing: border-box;
+        display: block;
+    }
+    .date > div{
+        width: 100%;
+    }
+    .date p{
+        margin: 10px  0px;
+    }
+   
+  
+}
+
+
+/* ============ tablet ============= */
+
+@media (max-width:900px){
+    
+    .leaveForm_container{
+        box-sizing: border-box;
+    }
+
+    .date{
+        box-sizing: border-box;
+        display: block;
+    }
+    .date > div{
+        width: 100%;
+    }
+    .date p{
+        margin: 10px  0px;
+    }
+}

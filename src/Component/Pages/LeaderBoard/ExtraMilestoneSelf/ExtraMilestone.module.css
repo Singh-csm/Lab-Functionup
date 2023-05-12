@@ -1,0 +1,86 @@
+.extra{
+    width: 95%;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 25px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgb(207, 206, 206);
+    border-radius: 13px;
+}
+.main_heading{
+    display: flex;
+    justify-content: space-between; 
+   
+}
+.view{
+    color: red;
+    cursor: pointer;
+}
+.achievement{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.achieve{
+    box-sizing: border-box;
+    margin: 1em 0;
+    width: 48%;
+    border: 1px solid #dfe9ef;
+    padding: 1em;
+    border-radius: 7px;
+}
+.develop{
+    display: flex;
+    padding:  0.5em 0;
+    font-size: 12px;
+}
+.time{
+    padding-left: 30px;
+}
+.black{
+    color: black;
+    padding-top: 5px;
+}
+.grey{
+    padding-top: 5px;
+    color: grey;
+}
+
+
+
+/* ++++++++++ Responsive +++++++++++ */
+
+
+/* ============ Phone ============= */
+
+@media (max-width:500px){
+    
+    .achieve{
+        width: 100%;
+    }
+    .extra{    
+        width: 100%;
+    }
+    
+    
+}
+
+
+/* ============ tablet ============= */
+
+@media (max-width:900px){
+    
+    .achieve{
+        width: 100%;
+    }
+    .extra{
+        width: 100%;
+    }
+    .develop{
+        width: 20em;
+    }
+
+}

@@ -1,0 +1,41 @@
+/* Advertise */
+
+
+.advertise{
+    margin: 1em;
+    margin-top: 1.5em;
+    box-shadow: 0 0 10px rgb(207, 206, 206);
+    background-color:#DAF5FF;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 0;
+}
+.advertise > h3{
+    color: #001378;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.advertise > p{
+    font-size: 14px;
+    color: grey;
+}
+
+.advertise > button{
+    padding-left: 7px;
+    padding-right: 15px;
+    margin-top: 1em;
+    color: #fff;
+    background-color: #21c17a;
+    outline: none;
+    border: none;
+    border-radius: 23px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.advertise img{
+    height: 25px;
+    width: 34px;
+}

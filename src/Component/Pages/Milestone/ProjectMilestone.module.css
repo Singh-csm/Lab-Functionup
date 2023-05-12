@@ -1,0 +1,179 @@
+.main_container{
+    width: 65%;
+    padding: 1.5em 0;
+}
+
+.details{
+    width: 95%;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 25px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 10px rgb(207, 206, 206);
+    border-radius: 13px;
+    margin-top: 15px;
+}
+
+.main_heading{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.view > button{
+    padding: 10px 15px;
+    margin-bottom: 2em;
+    font-size: 10px;
+    color: #fff;
+    background-color: red;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.project_main_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projectdetails{
+    width: 49%;
+    box-sizing: border-box;
+    background-color: #dfe9f6;
+    border: 1px solid  #ccddf0;
+    padding:  25px;
+    margin-bottom: 30px;
+    border-radius: 13px;
+    position: relative;
+}
+
+.proname{
+    display: flex;
+    justify-content: space-between;
+}
+
+.approval{
+    font-size: 10px;
+    border: 1px solid rgba(243,107,0,.9);;
+    color:rgba(243,107,0,.9);
+    background-color: #ffede0;
+    padding: 0.25rem 0.334rem;
+    border-radius: 14px;
+}
+
+.develop{
+    display: flex;
+    justify-content: space-between;
+    padding:  0.5em 0;
+    padding-right: 9em;
+    font-size: 12px;
+    width: 50%;
+}
+.black{
+    color: black;
+    padding-top: 5px;
+}
+.grey{
+    padding-top: 5px;
+    color: grey;
+}
+
+.language{
+    display: flex;
+}
+
+.language p{
+    margin-right: 15px;
+    margin-top: 10px;
+    color: grey;
+    padding: 3px;
+    font-size: 10px;
+    border: 1px solid rgb(215, 215, 215);
+}
+.description > p{
+    font-size: 12px;
+    line-height: 15px;
+    margin: 15px 0;
+    margin-bottom: 2.5em;
+}
+.link{
+    display: flex;
+    position: absolute;
+    bottom: 15px;
+}
+.link  p{
+    color: red;
+    font-size: 14px;
+    margin-right: 5px;
+    padding-top: 4px;
+    font-weight: 600;
+}
+
+ .link  span{
+    color: red;
+}
+
+
+
+
+
+/* ++++++++++ Responsive +++++++++++ */
+
+
+/* ============ Phone ============= */
+
+@media (max-width:500px){
+    
+    .main_container{
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        padding: 0 20px;
+    }
+    .details{
+        box-sizing: border-box;
+        margin: 25px 10px; 
+   }
+   .project_main_container{
+       display: block;
+       width: 100%;
+
+   }
+   .projectdetails{
+       width: 100%;
+   }
+   .develop{
+       box-sizing: border-box;
+       width: 100%;
+   }
+}
+
+
+/* ============ tablet ============= */
+
+@media (max-width:900px){
+    
+    .main_container{
+        box-sizing: border-box;
+        min-height: 98vh;
+        width: 100%;
+        padding: 0 20px;
+    }
+    .details{
+        box-sizing: border-box;
+        margin: 25px 10px;
+   }
+   .project_main_container{
+       display: block;
+       width: 100%;
+
+   }
+   .projectdetails{
+       width: 100%;
+   }
+   .develop{
+       box-sizing: border-box;
+       width: 100%;
+   }
+}

@@ -1,0 +1,9 @@
+.leaveApplied_container{
+    width: 100%;
+    background-color: white;
+    padding: 25px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    border-radius: 18px;
+    box-shadow: 0 0 10px rgb(207, 206, 206);
+}

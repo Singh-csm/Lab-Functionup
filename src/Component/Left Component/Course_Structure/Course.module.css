@@ -1,0 +1,34 @@
+/* course structure */
+
+.course_structure{
+    margin: 1.5em 0;
+    margin: 1em;
+    box-shadow: 0 0 10px rgb(207, 206, 206);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+.course{
+    margin: 0.8em 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.course_structure> h3{
+    margin: 1em 0;
+}
+.course_ > p{
+    display: inline;
+    color: grey;
+}
+.course > p > img{
+    height: 14px;
+    width: 14px;
+    padding-right: 10px;
+}
+.course >span {
+    font-weight: 800;
+    font-size: 18px;
+    color: grey;
+    cursor: pointer;
+}

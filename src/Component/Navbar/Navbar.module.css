@@ -1,0 +1,257 @@
+.main{
+    background-color: #1D252D;
+    display: flex;
+    justify-content: space-between;
+    /* height: 70px; */
+    position: sticky;
+    z-index: 10;
+    top: 0;
+}
+
+/* left +++++++++++++++++ */
+
+.left{
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+
+.logo{ 
+    margin-top: 10px;
+    padding: 0px;
+    /* position: relative; */
+    width: 80%;
+}
+
+.logoContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fu{
+    /* margin-top: 1rem; */
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    color: #fff;
+    font-weight: 700;
+    display: block;
+    font-weight: bold;
+
+}
+
+.bc{
+    letter-spacing: 1.5px;
+    font-size: 0.65rem;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    
+    color: #808080;
+}
+
+
+/* right +++++++++++++++++ */
+
+.right{
+    margin-right: 24px;
+    display: flex;
+    align-items: center; 
+}
+
+.right li, 
+ a{
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    color: grey ;
+    font-size: 14px;
+
+}
+.right a:hover{
+    color: white;
+}
+
+.common{
+    margin: 0 10px;
+}
+
+.trophy{
+    margin-left: 14px;
+    margin-top: -4px;
+    margin-right: -8px;
+    height: 24px;
+    width: 21px;
+}
+
+.leader{
+    margin-left: 15px ;
+}
+
+
+
+.profileImg{
+    margin-top: -4px;
+    margin-left: 22px;
+    border-radius: 100%;
+    height: 28px;
+    width: 28px;
+}
+
+.log{
+    color: #FFFF;
+    margin-left: 9px;
+}
+
+/* responsive button ++++++++ */
+
+.mobile_navbar_btn{
+    display: none;
+}
+.mobile_navbar_btn > div{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.mobile_navbar_btn > div > span{
+    color: white;
+    z-index: 10;
+}
+.mobile_navbar_btn > div > span > svg{
+    height: 20px;
+    width: 20px;
+}
+
+
+
+
+/* ++++++++++ Responsive +++++++++++ */
+
+
+/* ============ Phone ============= */
+@media (max-width:500px ){
+
+    .right{
+        display: none;
+    }
+    .mobile_navbar_btn{
+        display: block;
+        margin-right: 10px;
+    }    
+
+
+    .left{
+        margin-left: 10px;
+    }
+    .logo{
+        height: 38px;
+    }
+    .fu{
+        font-size: 1.2rem;
+    }
+    .bc{
+        font-size: 0.4rem;
+    }
+
+    /* for navbar  */
+    .main{
+        position: sticky;
+    }
+
+    .Active_Links{
+        display: block;
+        background-color: #1D252D;
+        height: 100vh;
+
+        position: fixed;
+        right: 0%;
+        top: 56px;
+    }
+    .Active_Links li{
+        list-style: none;
+        margin-top: 10px;
+        margin: 20px;
+        /* text-align: center; */
+    }
+    .trophy, .profileImg, .log{
+        display: none;
+    }
+    .leader{
+        margin-left: 10px;
+    }
+
+}
+
+
+/* ============ Tablet ============= */
+@media (max-width:900px ){
+
+    .right{
+        display: none;
+    }
+    .mobile_navbar_btn{
+        display: block;
+        margin-right: 20px;
+    }    
+
+
+    .left{
+        margin-left: 20px;
+    }
+    .logo{
+        height: 42px;
+        margin-right: 10px;
+    }
+    .fu{
+        font-size: 1.4rem;
+    }
+    .bc{
+        font-size: 0.5rem;
+    }
+
+    .Active_Links{
+        display: block;
+        background-color: #1D252D;
+        height: 100vh;
+
+        position: fixed;
+        right: 0%;
+        top: 56px;     
+    }
+    .Active_Links li{
+        list-style: none;
+        margin-top: 10px;
+        margin: 20px;
+        /* text-align: center; */
+    }
+    .trophy, .profileImg, .log{
+        display: none;
+    }
+    .leader{
+        margin-left: 10px;
+    }
+
+}
+
+
+/* ============ mini screens ============= */
+@media(min-width:900px){
+
+    .right{
+        display: flex;
+        margin-right: 16px;
+    }
+    .mobile_navbar_btn{
+        display: none;
+    }
+    .logo{
+        width: 35px
+    }
+    .trophy, .profileImg, .log{
+        display: block;
+    }
+
+}

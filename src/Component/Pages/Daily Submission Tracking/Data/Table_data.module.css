@@ -1,0 +1,63 @@
+.row{
+    padding:1rem;
+    height: 1.2rem;
+    display: flex;
+    width: 100%;
+}
+td {
+    padding: 15px 0;
+    text-align: center;
+}
+.no{
+    width: 5%;
+    /* margin-right:1.5rem ; */
+}
+.Lecture{
+    font-weight: 650;
+    width: 42%;
+    margin-right:1.5rem ;
+}
+.deadline{
+    width: 42%;
+    margin-right:1.5rem ;
+}
+
+.main{
+    border-bottom: 0.1px solid rgb(220, 220, 220);
+}
+.btn{
+    width: 15%;
+    margin-top: .3rem;
+    /* font-size: larger; */
+    padding: 8px 16px;
+    margin-bottom: 1em;
+    color: #fff;
+    background-color: red;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+.input{
+    margin-top: .3rem;
+    margin-bottom: .8rem;
+    border-radius: 5px;
+    padding: .5rem;
+    width: 80%;
+    height: 2rem;
+    display: flex;
+    border: 1px solid rgb(199, 225, 243);;
+}
+.submit{
+    display: flex;
+    justify-content: space-between;
+}
+.doc{
+    font-weight: 300;
+    margin-top: .8rem;
+    font-size: small;
+}
+/* .toogle{
+    margin-left: 3.7rem;
+} */

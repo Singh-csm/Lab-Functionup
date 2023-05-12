@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html,body{
+  width: 100%;
+  font-family: Gilroy,Arial,DM Sans,sans-serif;
+}
+.main_background{
+  width: 100%;
+  background-color: rgb(228, 225, 225);
+  display: flex;
+}
+
+

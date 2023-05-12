@@ -1,0 +1,52 @@
+.main{
+    background-color: #faf3dd;
+    box-sizing: border-box;
+    padding:10px 0;
+    padding-left: 1.2em;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    
+}
+
+.ptag{
+    color: black;
+    box-sizing: border-box;
+    align-items: center;
+}
+.btn{
+    padding-right: 15px;
+    margin-left: 15px;
+    color: #fff;
+    background-color: #21c17a;
+    outline: none;
+    border: none;
+    border-radius: 23px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.btn > p{
+    font-size: 10px;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.btn > img{
+    height: 30px;
+    width: 40px;
+}
+
+
+
+/* ++++++++++ Responsive +++++++++++ */
+
+
+@media (0px < width < 900px){
+    .main{
+        display: none;
+    }
+
+}

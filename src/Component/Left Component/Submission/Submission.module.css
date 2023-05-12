@@ -1,0 +1,58 @@
+/* Daily Assisgnment Submission */
+.main_background{
+    width: 100%;
+    background-color: rgb(228, 225, 225);
+    display: flex;
+  }
+  
+
+.submission{
+    margin:1em;
+    margin-top: 15px;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(207, 206, 206);
+    padding: 20px;
+    border-radius: 10px;
+}
+.submission h3{
+    padding-bottom: 2em;
+}
+.submission h4, 
+.submission p{
+    font-size: 14px;
+}
+
+.submission input{
+    padding: 16px 12px ;
+    width: 90%;
+    display: block;
+    margin: 15px 0;
+    outline: none;
+    border: 1px solid rgb(188, 187, 187);
+    border-radius: 4px;
+}
+
+.submission input:hover{
+    border: 1px solid black;
+}
+.submission input:focus{
+    border: 2px solid rgb(0, 157, 255);
+}
+.submission button{
+    padding: 8px 16px;
+    margin-bottom: 2em;
+    color: #fff;
+    background-color: red;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.gray{
+    color: gray;
+    margin: 5px 0;
+}
+
+
+
